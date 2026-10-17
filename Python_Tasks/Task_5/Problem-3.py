@@ -1,0 +1,11 @@
+# Q3. Mutations
+# HackerRank: https://www.hackerrank.com/challenges/python-mutations/problem
+
+string = input()
+position, character = input().split()
+
+position = int(position)
+
+result = string[:position] + character + string[position + 1:]
+
+print(result)
